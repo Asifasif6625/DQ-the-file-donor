@@ -1146,16 +1146,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton("⚙️ ʙᴏᴛ ᴜᴘᴀᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ⚙️", url="https://t.me/+d8zuVyrBBcNkYzI1")
                 ],[
-                    InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info"),
-                    InlineKeyboardButton('⌬ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
-                ],[
-                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
-                ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton("📂 ᴊᴏɪɴ ꜰᴏʀ ᴜᴘᴀᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 📂", url="https://t.me/+rjw2I6MtjW8xYzRl")
+                ],[      
+                    InlineKeyboardButton("🔰 ᴮᴼᵀ ᴬᴮᴼᵁᵀ ᴾᴬᴺᴱᴸ 🔰", callback_data="about")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
